@@ -78,7 +78,7 @@ const skillCategories = [
     title: "Frontend",
     icon: Globe,
     skills: [
-      { name: "HTML & CSS", level: "Intermediário" },
+      { name: "HTML & CSS", level: "Avançado" },
       { name: "Tailwind CSS", level: "Básico" },
     ],
   },
