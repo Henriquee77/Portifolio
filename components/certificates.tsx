@@ -41,18 +41,18 @@ export function Certificates() {
                 className="bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 transition-all group"
               >
                 {/* PDF Preview */}
-                <div className="relative bg-secondary/30 h-64 overflow-hidden">
-                  <iframe
-                    src={`${cert.pdfUrl}#toolbar=0&navpanes=0&scrollbar=0`}
-                    className="w-full h-full pointer-events-none"
-                    title={cert.title}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent" />
+                <div className="relative bg-secondary/30 h-64 overflow-hidden flex items-center justify-center">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/10 flex items-center justify-center">
+                    <div className="text-center">
+                      <FileText className="h-16 w-16 text-primary/60 mx-auto mb-2" />
+                      <p className="text-sm text-muted-foreground">Certificado</p>
+                    </div>
+                  </div>
                   <a
                     href={cert.pdfUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute bottom-4 right-4 flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
+                    className="absolute bottom-4 right-4 flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors z-10"
                   >
                     <FileText className="h-4 w-4" />
                     Ver PDF completo
