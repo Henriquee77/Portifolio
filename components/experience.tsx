@@ -3,7 +3,7 @@ import { Briefcase, Calendar, CheckCircle2 } from "lucide-react"
 const experiences = [
   {
     title: "Desenvolvedor de Automações & Software",
-    company: "Fábrica de Software",
+    company: "Cria Incubator",
     period: "6 meses",
     current: false,
     activities: [
