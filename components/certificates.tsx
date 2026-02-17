@@ -6,14 +6,14 @@ const featuredCertificates = [
     issuer: "Escola de Inteligência Artificial e Programação",
     description: "Programação com Python, análise de dados, desenvolvimento web full-stack, integração com bancos de dados, criação de startup e jogo digital com IA, redes neurais convolucionais e metodologias ágeis.",
     year: "2025",
-    pdfUrl: "/certificates/Certificado Challenger - Luís Henrique da Silva Sousa.pdf",
+    pdfUrl: "/certificates/certificado-challenger-ia-programacao.pdf",
   },
   {
     title: "Brasília + TI 2025",
     issuer: "Evento de Tecnologia - Brasília",
     description: "Participação em evento focado em inovação tecnológica, networking e tendências do mercado de TI no Distrito Federal.",
     year: "2025",
-    pdfUrl: "/certificates/Certificado Brasilia+Ti.pdf",
+    pdfUrl: "/certificates/certificado-brasilia-ti-2025.pdf",
   },
 ]
 
